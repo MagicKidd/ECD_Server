@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../Css/style.css" />
+		<script src="../Data/ChannelListSource1.js" type="text/javascript"></script>
+		<script src="../Data/ChannelListSource2.js" type="text/javascript"></script>
+		<script src="../Template/eventcard_template.js" type=""text/javascript""></script>
+		<script src="../Js/Lib/jquery.js" type="text/javascript"></script>
+		<script src="../Js/Lib/require.js" type="text/javascript" defer async="true" data-main="../Js/TVChannelList"></script>
+		<style type="text/css">
+			html:fullscreen {
+				background: red;
+			}
+		</style>
+				<script type="text/javascript">
+			$(function(){
+			var video  = document.getElementById("video"),
+				domPrefixes = 'Webkit Moz O ms Khtml'.split(' ');
+				
+			var fullscreen = function(elem) {
+				var prefix;
+				// Mozilla and webkit intialise fullscreen slightly differently
+				for ( var i = -1, len = domPrefixes.length; ++i < len; ) {
+		          prefix = domPrefixes[i].toLowerCase();
+				  
+				  if ( elem[prefix + 'EnterFullScreen'] ) {
+		            // Webkit uses EnterFullScreen for video
+					return prefix + 'EnterFullScreen';
+					break;
+		          } else if( elem[prefix + 'RequestFullScreen'] ) {
+					// Mozilla uses RequestFullScreen for all elements and webkit uses it for non video elements
+					return prefix + 'RequestFullScreen';
+					break;
+				  }
+		        }
+		
+				return false;
+			};
+			
+			var fullscreenvideo = fullscreen(document.createElement("video"));
+
+			var btn = document.getElementById("fullscreenvid");
+			btn.addEventListener("click", function(){
+				 //The test returns a string so we can easily call it on a click event
+				video[fullscreenvideo]();
+			}, false);
+
+			//$(btn).trigger("click");
+			});
+		</script>
+	</head>
+	<body style="margin:0px;padding:0px;overflow:hidden;">
+
+		<video src="../Videos/zard1.mp4" autoplay="true" id="video" height="1080px" width="1920px" style="margin:0px;padding:0px;"></video>
+		<div style="width:100px;height:100px;background-color:red;position:absolute;-webkit-transform: translateZ(10px);top:200px;left:100px;"></div>
+	</body>
+</html>

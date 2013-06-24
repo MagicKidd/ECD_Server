@@ -1,0 +1,557 @@
+/*-------------------tvMain页面 Start-----------------------------------------------*/
+
+/*-------------------tvMain页面 公用样式Start------------------*/
+.tvMain{
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+.tvMain .position{
+	position:relative;
+}
+
+.tvMain .clear{
+	clear:both;
+}
+
+.tvMain .hide{
+	display:none;
+}
+
+.tvMain .removeShadow{
+	display:none;
+}
+.tvMain span{
+	word-break: break-all;
+}
+/*-------------------tvMain页面 公用样式End------------------*/
+
+/*-------------------tvMain页面1920_1080制式样式Start------------------*/
+.size_1920_1080 .focusBg{
+	background-image:url(../Images/1920_1080shine.png);
+}
+
+.size_1920_1080 .blurBg{
+	background-image:url(../Images/1920_1080bg.png);
+}
+
+.size_1920_1080 .tvMain #container{
+	-webkit-transform-style: preserve-3d;
+	-webkit-perspective: 5000;	
+	margin-left:126px;
+	margin-top:42px;
+	float:left;
+}
+
+.size_1920_1080 .tvMain .event_card{
+	margin-top:13px;
+	margin-left:67px;
+	margin-right:67px;
+	float:left;
+	width: 422px;
+}
+
+.size_1920_1080 .tvMain .blur{
+	box-shadow:-2px 0 2px lightgray,0 2px 3px gray,2px 0 2px lightgray;
+}
+
+.size_1920_1080 .tvMain #top{
+	width:100%;
+	height:12px;
+	background-image: url(../Images/Size_1920_1080_03.png);
+	position:absolute;
+}
+
+.size_1920_1080 .tvMain #left{
+	background-image: url(../Images/Size_1920_1080_06.png);
+	background-repeat: repeat-y;
+	width:10px;
+	height:100%; 
+	position: absolute;
+	top:12px;	
+}
+
+.size_1920_1080 .tvMain #right{
+	background-image: url(../Images/Size_1920_1080_08.png);
+	background-repeat: repeat-y;
+	width:10px;
+	height:100%; 
+	position: absolute;
+	left: 412px;
+	top:12px;
+}
+
+.size_1920_1080 .tvMain #bottom{
+	width:100%;
+	height:20px;
+	background-image: url(../Images/Size_1920_1080_11.png);
+	position:absolute;
+	bottom:0px;
+}
+.size_1920_1080 .tvMain #img_content{
+	float:left;
+	width:402px;
+	margin:12px 10px 20px 10px;	
+}
+
+.size_1920_1080 .tvMain #image{
+	width:100%;
+	height:203px;
+}
+
+.size_1920_1080 .tvMain #content{
+	margin:28px 30px 35px 30px;
+	font-size:30px;
+	height:30px;
+}
+
+.size_1920_1080 .tvMain .center_card{
+	margin-left:613px !important;
+	margin-top:300px !important;
+}
+/*-------------------tvMain页面1920_1080制式样式End------------------*/
+
+/*-------------------tvMain页面1280_720制式样式Start------------------*/
+.size_1280_720 .focusBg{
+	background-image:url(../Images/1280_720shine.png);
+}
+
+.size_1280_720 .blurBg{
+	background-image:url(../Images/1280_720bg.png);
+}
+
+.size_1280_720 .tvMain #container{
+	-webkit-transform-style: preserve-3d;
+	-webkit-perspective: 5000;	
+	margin-left:94px;
+	margin-top:14px;
+	float:left;
+}
+
+.size_1280_720 .tvMain .event_card{
+	margin-top:10px;
+	margin-left:27px;
+	margin-right:27px;
+	float:left;
+	width: 310px;
+}
+
+.size_1280_720 .tvMain .blur{
+	box-shadow:-1px 0 1px lightgray,0 1px 2px gray,1px 0 1px lightgray;
+}
+
+.size_1280_720 .tvMain #top{
+	width:100%;
+	height:6px;
+	background-image: url(../Images/Size_1280_720_03.png);
+	position:absolute;
+}
+
+.size_1280_720 .tvMain #left{
+	background-image: url(../Images/Size_1280_720_06.png);
+	background-repeat: repeat-y;
+	width:7px;
+	height:100%; 
+	position: absolute;
+	top:6px;	
+}
+
+.size_1280_720 .tvMain #right{
+	background-image: url(../Images/Size_1280_720_08.png);
+	background-repeat: repeat-y;
+	width:7px;
+	height:100%; 
+	position: absolute;
+	left: 303px;
+	top:6px;
+}
+
+.size_1280_720 .tvMain #bottom{
+	width:100%;
+	height:12px;
+	background-image: url(../Images/Size_1280_720_11.png);
+	position:absolute;
+	bottom:0px;
+}
+.size_1280_720 .tvMain #img_content{
+	float:left;
+	width:296px;
+	margin:6px 7px 12px 7px;	
+}
+
+.size_1280_720 .tvMain #image{
+	width:100%;
+	height:150px;
+}
+
+.size_1280_720 .tvMain #content{
+	margin:14px 22px 18px 22px;
+	font-size:22px;
+	height:22px;
+}
+
+.size_1280_720 .tvMain .center_card{
+	margin-left:410px !important;
+	margin-top:243px !important;
+}
+/*-------------------tvMain页面1280_720制式样式End------------------*/
+
+/*-------------------tvMain页面公共动画Start------------------*/
+@-webkit-keyframes zAnimation {
+  from {
+    -webkit-transform: translateZ(-1000px);
+  }
+  to {
+    -webkit-transform: translateZ(0px);
+  }
+}
+/*-------------------tvMain页面公共动画Start------------------*/
+
+/*-------------------tvMain页面 End-----------------------------------------------*/
+
+/*-------------------tvTimeStream页面 Start-----------------------------------------------*/
+
+/*-------------------tvTimeStream页面 公用样式Start------------------*/
+.tvTimeStream{
+	margin:0px;
+	padding:0px;
+	overflow: hidden;
+}
+
+.tvTimeStream .position{
+	position:relative;
+}
+
+.tvTimeStream .clear{
+	clear:both;
+}
+
+.tvTimeStream .hide{
+	display:none;
+}
+
+.tvTimeStream .removeShadow{
+	display:none;
+}
+.tvTimeStream span{
+	word-break: break-all;
+}
+/*-------------------tvTimeStream页面 公用样式End------------------*/
+/*-------------------tvTimeStream页面1920_1080制式样式Start------------------*/
+.size_1920_1080 .tvTimeStream #container{
+	margin:0px 322px 0 322px;
+}
+
+.size_1920_1080 .tvTimeStream #column0{
+	width:422px;
+	float:left;	
+}
+
+.size_1920_1080 .tvTimeStream #column1,
+.size_1920_1080 .tvTimeStream #column2{
+	width:422px;
+	margin-left:5px;
+	float:left;	
+}
+
+.size_1920_1080 .tvTimeStream .event_card{
+	margin-top:8px;
+}
+
+/*-------------------测试用Start------------------*/
+.size_1920_1080 .tvTimeStream img{
+	width:100%;
+	height:203px;
+}
+/*-------------------测试用End------------------*/
+
+.size_1920_1080 .tvTimeStream .blur{
+	box-shadow:-2px 0 2px lightgray,0 2px 3px gray,2px 0 2px lightgray;
+}
+
+.size_1920_1080 .tvTimeStream #top{
+	width:100%;
+	height:12px;
+	background-image: url(../Images/Size_1920_1080_03.png);
+	position:absolute;
+}
+
+.size_1920_1080 .tvTimeStream #left{
+	background-image: url(../Images/Size_1920_1080_06.png);
+	background-repeat: repeat-y;
+	width:10px;
+	height:100%; 
+	position: absolute;
+	top:12px;	
+}
+
+.size_1920_1080 .tvTimeStream #right{
+	background-image: url(../Images/Size_1920_1080_08.png);
+	background-repeat: repeat-y;
+	width:10px;
+	height:100%; 
+	position: absolute;
+	left: 412px;
+	top:12px;
+}
+
+.size_1920_1080 .tvTimeStream #bottom{
+	width:100%;
+	height:20px;
+	background-image: url(../Images/Size_1920_1080_11.png);
+	position:absolute;
+	bottom:0px;
+}
+.size_1920_1080 .tvTimeStream #img_content{
+	float:left;
+	width:402px;
+	margin:12px 10px 20px 10px;	
+}
+
+.size_1920_1080 .tvTimeStream #image{
+	width:100%;
+	height:203px;
+}
+
+.size_1920_1080 .tvTimeStream #content{
+	margin:28px 30px 35px 30px;
+	font-size:30px;
+}
+
+/*-------------------tvTimeStream页面1920_1080制式样式End------------------*/
+
+/*-------------------tvTimeStream页面1280_720制式样式Start------------------*/
+.size_1280_720 .tvTimeStream #container{
+	margin:6px 166px 0 166px;
+}
+
+.size_1280_720 .tvTimeStream #column0,
+.size_1280_720 .tvTimeStream #column1,
+.size_1280_720 .tvTimeStream #column2{
+	width:310px;
+	float:left;
+	margin-left:3px;
+	margin-righr:3px;	
+}
+
+.size_1280_720 .tvTimeStream .event_card{
+	margin-top:8px;
+}
+
+/*-------------------测试用Start------------------*/
+.size_1280_720 .tvTimeStream img{
+	width:100%;
+	height:150px;
+}
+/*-------------------测试用End------------------*/
+
+.size_1280_720 .tvTimeStream .blur{
+	box-shadow:-1px 0 1px lightgray,0 1px 2px gray,1px 0 1px lightgray;
+}
+
+.size_1280_720 .tvTimeStream #top{
+	width:100%;
+	height:6px;
+	background-image: url(../Images/Size_1280_720_03.png);
+	position:absolute;
+}
+
+.size_1280_720 .tvTimeStream #left{
+	background-image: url(../Images/Size_1280_720_06.png);
+	background-repeat: repeat-y;
+	width:6px;
+	height:100%; 
+	position: absolute;
+	top:6px;	
+}
+
+.size_1280_720 .tvTimeStream #right{
+	background-image: url(../Images/Size_1280_720_08.png);
+	background-repeat: repeat-y;
+	width:6px;
+	height:100%; 
+	position: absolute;
+	left: 303px;
+	top:6px;
+}
+
+.size_1280_720 .tvTimeStream #bottom{
+	width:100%;
+	height:12px;
+	background-image: url(../Images/Size_1280_720_11.png);
+	position:absolute;
+	bottom:0px;
+}
+.size_1280_720 .tvTimeStream #img_content{
+	float:left;
+	width:296px;
+	margin:6px 7px 12px 7px;	
+}
+
+.size_1280_720 .tvTimeStream #image{
+	width:100%;
+	height:150px;
+}
+
+.size_1280_720 .tvTimeStream #content{
+	margin:14px 22px 18px 22px;
+	font-size:22px;
+}
+
+/*-------------------tvTimeStream页面1280_720制式样式End------------------*/
+/*-------------------tvTimeStream页面 End-----------------------------------------------*/
+
+/*-------------------TVSingle页面 Start-----------------------------------------------*/
+
+/*-------------------TVSingle页面 公用样式Start------------------*/
+.TVSingle{
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+.TVSingle .position{
+	position:relative;
+}
+
+.TVSingle .clear{
+	clear:both;
+}
+
+.TVSingle .hide{
+	display:none;
+}
+
+.TVSingle span{
+	word-break: break-all;
+}
+/*-------------------TVSingle页面 公用样式End------------------*/
+
+/*-------------------TVSingle页面1920_1080制式样式Start------------------*/
+.size_1920_1080 .TVSingle #container{
+	margin-left:126px;
+	margin-top:42px;
+	float:left;
+}
+
+
+.size_1920_1080 .TVSingle #top{
+	width:100%;
+	height:12px;
+	background-image: url(../Images/Size_1920_1080_03.png);
+	position:absolute;
+}
+
+.size_1920_1080 .TVSingle #left{
+	background-image: url(../Images/Size_1920_1080_06.png);
+	background-repeat: repeat-y;
+	width:10px;
+	height:100%; 
+	position: absolute;
+	top:12px;	
+}
+
+.size_1920_1080 .TVSingle #right{
+	background-image: url(../Images/Size_1920_1080_08.png);
+	background-repeat: repeat-y;
+	width:10px;
+	height:100%; 
+	position: absolute;
+	left: 412px;
+	top:12px;
+}
+
+.size_1920_1080 .TVSingle #bottom{
+	width:100%;
+	height:20px;
+	background-image: url(../Images/Size_1920_1080_11.png);
+	position:absolute;
+	bottom:0px;
+}
+.size_1920_1080 .TVSingle #img_content{
+	float:left;
+	width:402px;
+	margin:12px 10px 20px 10px;	
+}
+
+.size_1920_1080 .TVSingle #image{
+	width:100%;
+	height:203px;
+}
+
+.size_1920_1080 .TVSingle #content{
+	margin:28px 30px 35px 30px;
+	font-size:30px;
+	height:30px;
+}
+
+.size_1920_1080 .TVSingle .center_card{
+	margin-left:613px !important;
+	margin-top:300px !important;
+}
+/*-------------------TVSingle页面1920_1080制式样式End------------------*/
+
+/*-------------------TVSingle页面1280_720制式样式Start------------------*/
+.size_1280_720 .TVSingle #container{	
+	margin-left:94px;
+	margin-top:14px;
+	float:left;
+}
+
+.size_1280_720 .TVSingle #top{
+	width:100%;
+	height:6px;
+	background-image: url(../Images/Size_1280_720_03.png);
+	position:absolute;
+}
+
+.size_1280_720 .TVSingle #left{
+	background-image: url(../Images/Size_1280_720_06.png);
+	background-repeat: repeat-y;
+	width:6px;
+	height:100%; 
+	position: absolute;
+	top:6px;	
+}
+
+.size_1280_720 .TVSingle #right{
+	background-image: url(../Images/Size_1280_720_08.png);
+	background-repeat: repeat-y;
+	width:6px;
+	height:100%; 
+	position: absolute;
+	left: 303px;
+	top:6px;
+}
+
+.size_1280_720 .TVSingle #bottom{
+	width:100%;
+	height:12px;
+	background-image: url(../Images/Size_1280_720_11.png);
+	position:absolute;
+	bottom:0px;
+}
+.size_1280_720 .TVSingle #img_content{
+	float:left;
+	width:296px;
+	margin:6px 7px 12px 7px;	
+}
+
+.size_1280_720 .TVSingle #image{
+	width:100%;
+	height:150px;
+}
+
+.size_1280_720 .TVSingle #content{
+	margin:14px 22px 18px 22px;
+	font-size:22px;
+}
+
+.size_1280_720 .TVSingle .center_card{
+	margin-left:410px !important;
+	margin-top:243px !important;
+}
+/*-------------------TVSingle页面1280_720制式样式End------------------*/
+
+/*-------------------TVSingle页面 End-----------------------------------------------*/
