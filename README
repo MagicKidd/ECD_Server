@@ -5,11 +5,11 @@ ECD后台服务端，从豆瓣获取数据
 
 豆瓣api地址：
 
-	/** 根据影片名称查询地址 */
-	public static final String SEAECH_NAME_URL = "http://api.douban.com/v2/movie/search?q=";
+/** 根据影片名称查询地址 */
+public static final String SEAECH_NAME_URL = "http://api.douban.com/v2/movie/search?q=";
 
-	/** 根据id查看影片详细信息地址 */
-	public static final String SEARCH_ID_URL = "http://api.douban.com/v2/movie/subject/";
+/** 根据id查看影片详细信息地址 */
+public static final String SEARCH_ID_URL = "http://api.douban.com/v2/movie/subject/";
 
 
 
