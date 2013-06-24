@@ -8,7 +8,7 @@ ECD后台服务端，从豆瓣获取数据
 
   			
 				
-Directors(导演信息表)				
+Directors(导演信息表)		 		
 名称	      类型	        约束条件	    说明	
 id	        int	          无重复	      导演识别，主键，自增长	
 movie_id	  int	          不为空	      外键，与Movies.id关联	
