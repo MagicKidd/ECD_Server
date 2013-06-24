@@ -55,4 +55,4 @@ Akas(影片别名信息)
 名称	      类型	        约束条件	    说明	
 id	        int         	无重复	      主键，自增长	
 movie_id	  int	不为空	                外键，与Movies.id关联	
-name	      varchar(30)	  不为空	      影片别名	
+name	      varchar(30)	  不为空	      影片别名	 
